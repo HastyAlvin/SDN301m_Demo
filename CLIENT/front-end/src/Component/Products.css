@@ -1,0 +1,73 @@
+/* Products.css */
+.productTable {
+  margin: 20px;
+  padding: 20px;
+}
+
+.product-table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.product-table th {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.product-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.product-image {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/* Style for the "Add Product" button */
+Button {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #00ffff;
+  font-size: large;
+}
+/* Trong tệp Products.css hoặc một tệp CSS riêng */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.modal-content {
+  width: 100%;
+ 
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.modal-header {
+  text-align: center;
+  justify-content: center;
+}
+
+.modal-footer {
+  display: flex;  justify-content: center;
+}.modal-body {
+  display: flex;
+  padding-left: 90px;
+  justify-content: center;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
